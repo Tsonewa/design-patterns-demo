@@ -5,7 +5,7 @@ public class Government {
     //create an object of Government
     private static final Government government = new Government();
 
-    //make the constructor private so that this class cannot be
+    //Make the constructor private so that this class cannot be
     //instantiated
     private Government(){}
 
