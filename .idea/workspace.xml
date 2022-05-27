@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be97696-7e83-4fff-8cd6-8a25f000e1ad" name="Default Changelist" comment="strategy pattern">
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/AbstractFactoryPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/AsusCpu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/AsusManufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/AsusMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Cpu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/MsiCpu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/MsiManufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/MsiMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/package-info.java" afterDir="false" />
+    <list default="true" id="2be97696-7e83-4fff-8cd6-8a25f000e1ad" name="Default Changelist" comment="abstract factory pattern">
+      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/PrototypePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +57,7 @@
       <recent name="MementoPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryPattern">
+  <component name="RunManager" selected="Application.PrototypePattern">
     <configuration name="AbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactoryPattern.AbstractFactoryPattern" />
       <module name="design-patterns" />
@@ -77,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonPattern.Main" />
+    <configuration name="MementoPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MementoPattern.MementoPattern" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonPattern.*" />
+          <option name="PATTERN" value="MementoPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MementoPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MementoPattern.MementoPattern" />
+    <configuration name="PrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrototypePattern.PrototypePattern" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MementoPattern.*" />
+          <option name="PATTERN" value="PrototypePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypePattern" />
         <item itemvalue="Application.AbstractFactoryPattern" />
         <item itemvalue="Application.StrategyPattern" />
         <item itemvalue="Application.StatePattern" />
         <item itemvalue="Application.MementoPattern" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639847049233</updated>
       <workItem from="1640544508507" duration="11000" />
-      <workItem from="1653646422571" duration="9868000" />
+      <workItem from="1653646422571" duration="13681000" />
     </task>
     <task id="LOCAL-00001" summary="memento pattern">
       <created>1653648960231</created>
@@ -189,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653655602469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="abstract factory pattern">
+      <created>1653658251143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653658251143</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +212,7 @@
     <MESSAGE value="builder pattern" />
     <MESSAGE value="state pattern" />
     <MESSAGE value="strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategy pattern" />
+    <MESSAGE value="abstract factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract factory pattern" />
   </component>
 </project>
