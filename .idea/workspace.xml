@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be97696-7e83-4fff-8cd6-8a25f000e1ad" name="Default Changelist" comment="abstract factory pattern">
-      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/PrototypePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/package-info.java" afterDir="false" />
+    <list default="true" id="2be97696-7e83-4fff-8cd6-8a25f000e1ad" name="Default Changelist" comment="prototype pattern">
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/AdapterPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/AndroidCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/HuaweiP30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/IPhoneCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/IPhoneX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/MultifunctionalAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +61,7 @@
       <recent name="MementoPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrototypePattern">
+  <component name="RunManager" selected="Application.AdapterPattern">
     <configuration name="AbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactoryPattern.AbstractFactoryPattern" />
       <module name="design-patterns" />
@@ -71,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MementoPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MementoPattern.MementoPattern" />
+    <configuration name="AdapterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdapterPattern.AdapterPattern" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MementoPattern.*" />
+          <option name="PATTERN" value="AdapterPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterPattern" />
         <item itemvalue="Application.PrototypePattern" />
         <item itemvalue="Application.AbstractFactoryPattern" />
         <item itemvalue="Application.StrategyPattern" />
         <item itemvalue="Application.StatePattern" />
-        <item itemvalue="Application.MementoPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639847049233</updated>
       <workItem from="1640544508507" duration="11000" />
-      <workItem from="1653646422571" duration="13681000" />
+      <workItem from="1653646422571" duration="16110000" />
     </task>
     <task id="LOCAL-00001" summary="memento pattern">
       <created>1653648960231</created>
@@ -190,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653658251143</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="prototype pattern">
+      <created>1653663272283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653663272283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +224,7 @@
     <MESSAGE value="state pattern" />
     <MESSAGE value="strategy pattern" />
     <MESSAGE value="abstract factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="abstract factory pattern" />
+    <MESSAGE value="prototype pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototype pattern" />
   </component>
 </project>
