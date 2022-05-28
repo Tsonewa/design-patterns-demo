@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be97696-7e83-4fff-8cd6-8a25f000e1ad" name="Default Changelist" comment="adapter pattern">
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/AmericanRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/BridgePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/ChickenPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/ItalianRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/PepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2be97696-7e83-4fff-8cd6-8a25f000e1ad" name="Default Changelist" comment="bridge pattern">
+      <change afterPath="$PROJECT_DIR$/src/BridgePattern/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
