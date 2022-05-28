@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be97696-7e83-4fff-8cd6-8a25f000e1ad" name="Default Changelist" comment="bridge pattern">
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/package-info.java" afterDir="false" />
+    <list default="true" id="2be97696-7e83-4fff-8cd6-8a25f000e1ad" name="Default Changelist" comment="bridge pattern package-info.java">
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/FilterPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/IBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/Ryzen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/SearchCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/i5Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/i7Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPattern/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +56,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="FilterPattern" />
       <recent name="BridgePattern" />
       <recent name="AbstractFactoryPattern" />
       <recent name="StrategyPattern" />
       <recent name="MementoPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BridgePattern">
+  <component name="RunManager" selected="Application.FilterPattern">
     <configuration name="AbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactoryPattern.AbstractFactoryPattern" />
       <module name="design-patterns" />
@@ -93,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrototypePattern.PrototypePattern" />
+    <configuration name="FilterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FilterPattern.FilterPattern" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrototypePattern.*" />
+          <option name="PATTERN" value="FilterPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StrategyPattern.StrategyPattern" />
+    <configuration name="PrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrototypePattern.PrototypePattern" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StrategyPattern.*" />
+          <option name="PATTERN" value="PrototypePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterPattern" />
         <item itemvalue="Application.BridgePattern" />
         <item itemvalue="Application.AdapterPattern" />
         <item itemvalue="Application.PrototypePattern" />
         <item itemvalue="Application.AbstractFactoryPattern" />
-        <item itemvalue="Application.StrategyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +162,7 @@
       <updated>1639847049233</updated>
       <workItem from="1640544508507" duration="11000" />
       <workItem from="1653646422571" duration="17172000" />
-      <workItem from="1653734249644" duration="1183000" />
+      <workItem from="1653734249644" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="memento pattern">
       <created>1653648960231</created>
@@ -203,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653665838390</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bridge pattern">
+      <created>1653735456174</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653735456174</updated>
+    </task>
+    <task id="LOCAL-00009" summary="bridge pattern package-info.java">
+      <created>1653735572914</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653735572914</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +253,8 @@
     <MESSAGE value="abstract factory pattern" />
     <MESSAGE value="prototype pattern" />
     <MESSAGE value="adapter pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapter pattern" />
+    <MESSAGE value="bridge pattern" />
+    <MESSAGE value="bridge pattern package-info.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="bridge pattern package-info.java" />
   </component>
 </project>
